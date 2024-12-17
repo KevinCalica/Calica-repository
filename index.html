@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="scipt" href="script.js">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Kevin Calica</div>
+        <div>
+            <ul class="nav-links">  
+                <li><a href="#grid-gallery-name">Gallery</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#Interest">Interest</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="grid-gallery" id="grid-gallery-name">
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img1.jpg">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img2.jpg">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img3.jpg">
+                </a>    
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img4.jpg">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img5.jpg">
+                </a>    
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img6.jpg">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img7.jpg">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img8.jpg">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img9.jpg">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a>
+                    <img src="assets/img10.jpg">
+                </a>
+            </div>
+        </div>
+    <section id="about-me" class="about-me-card">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-image">
+                    <img src="assets/SelfPic.jpg" alt="About Me">
+                </div>
+                <div class="card-text">
+                    <h2>About Me</h2>
+                    <p>
+                        Hi, I’m Christopher Kevin C. Calica. I am from BSIS 1-04, and currently enrolled at DFCAMCLP IT
+                        Campus.
+                    </p>
+                    <p>
+                        I enjoy reading, watching movies, and playing games.
+                    </p>
+                    <a href="#contact-section" class="btn-contact">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="card-section" id="Interest">
+            <h2>Favorite Movies</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/img11.jpg" alt="img 11">
+                    <div class="card-content">
+                        <h3>Dune</h3>
+                        <p>The Dune series is an epic saga of politics, power, and destiny, set against the backdrop of a harsh desert planet, where a young nobleman battles to control the universe's most valuable resource while navigating a web of betrayal and prophecy.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img12.jpg" alt="img 12">
+                    <div class="card-content">
+                        <h3>The Godfather 1 and 2</h3>
+                        <p>The Godfather movie series is a powerful tale of family, loyalty, and the moral complexities of power, as it follows the rise and fall of the Corleone crime dynasty.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img13.jpg" alt="img 13">
+                    <div class="card-content">
+                        <h3>All Quiet on the Western Front</h3>
+                        <p>All Quiet on the Western Front is a harrowing portrayal of the brutal realities of war, as experienced by a group of young soldiers who face the disillusionment and horrors of combat during World War I.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-card-section" id="contact-section">
+            <div class="contact-card">
+                <h2>Contact Me</h2>
+                <p>If you have any questions or just want to say hi, feel free to drop me a message!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+        
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>                                             
+        <footer>
+            <div class="footer-container">
+                <div class="logo-1">Kevin Calica</div>
+                <p>&copy; 2024 Kevin Calica | All Rights Reserved</p>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/christopherkevin.calica"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/chrisoff3r/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/KevinCalica"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <div class="music-player" id="musicPlayer">
+            <div class="player-header">
+                <span>Now Playing</span>
+                <button class="toggle-button" id="toggleButton">_</button>
+            </div>
+            <div class="player-content">
+                <audio controls>
+                    <source src="assets/Persona 5 OST- Beneath the Mask.mp3" type="audio/mp3">
+                </audio>                
+            </div>
+        </div>        
+
+</body> 
+</html>
